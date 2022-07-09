@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.myDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+  }
+  #grid{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap; 
+      border: solid black; 
+      margin-right: 2px;
+      margin-left: 2px;
+
+  }
+  body{
+    width:100%;
+    height: auto;
+    background-color: #c7eaf2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  h1{
+    font-size: 3em;
+    margin: 10px 0 10px 0;
+  }
+  #textBox{
+    font-size: 1em;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    width: 30vw;
+    height: 5vh;
+  }
+  #generatebutton{
+    font-size: 1.5em;
+    margin-top: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+  }
